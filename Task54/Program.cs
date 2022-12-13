@@ -65,6 +65,6 @@ void OrderArrayLines(int[,] array)
 int[,] array2D = CreateMatrixRndInt(m, n, 0, range);
 PrintMatrix(array2D);
 
-Console.WriteLine("Отсортированный массив: ");
+Console.WriteLine("В итоге получается вот такой массив: ");
 OrderArrayLines(array2D);
 PrintMatrix(array2D);
